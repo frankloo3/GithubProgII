@@ -57,7 +57,19 @@ public class Main {
                         System.out.println("Nacionalidad: " + nacionalidad);
 
                     case 3:
-                }
+			System.out.println("Escriba el articulo de eleccion");
+                    	System.out.println(" Ejemplo1");
+                    	System.out.println(" Ejemplo2 ");
+                    	System.out.println(" Ejemplo3 ");
+                    	String articulo = scan.next();
+                    		if (articulo.equals(articulo)) {
+                        	System.out.println("Su orden fue completada con éxito");
+                        	Date date=java.util.Calendar.getInstance().getTime();
+                        	System.out.println(date);
+                    }
+                    case 4:
+                    	System.out.println("Su sesion ha terminado exitosamente");
+                    }
 
 
             } else  {
